@@ -1,0 +1,19 @@
+17:53:04.285 INFO  AUTOMATION - beforeAll
+17:53:04.293 DEBUG AUTOMATION - Borrando la evidencia anterior
+17:53:04.538 INFO  AUTOMATION - before: Buscar y validar detalles de una consola playstation
+17:53:04.539 INFO  AUTOMATION - Asignando default driver a CHROME
+17:53:04.541 INFO  AUTOMATION - Inicializando driver: CHROME
+17:53:08.839 DEBUG AUTOMATION - Maximizando la pantalla
+17:53:08.913 DEBUG AUTOMATION - Borrrando las cookies
+17:53:08.947 INFO  AUTOMATION - Navegando a la pagina
+17:53:19.450 INFO  AUTOMATION - Esperando que la pagina LPHomePage cargue
+17:53:19.531 INFO  AUTOMATION - LPHomePage ha cargado satisfactoriamente
+17:53:19.534 INFO  AUTOMATION - Escribiendo item a buscar
+17:53:20.351 INFO  AUTOMATION - Dando ENTER a la busqueda
+17:53:21.142 INFO  AUTOMATION - Verificando las opciones del sidebar
+17:53:21.480 INFO  AUTOMATION - after: Buscar y validar detalles de una consola playstation, status: FAILED
+17:53:21.481 DEBUG AUTOMATION - Tomando screenshot
+17:53:21.949 DEBUG AUTOMATION - Tomando el page source de la pagina
+17:53:21.949 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+17:53:26.789 DEBUG AUTOMATION - Matando el padre
+17:53:27.465 INFO  AUTOMATION - afterAll
