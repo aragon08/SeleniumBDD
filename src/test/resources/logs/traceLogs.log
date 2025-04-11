@@ -1,19 +1,280 @@
-17:53:04.285 INFO  AUTOMATION - beforeAll
-17:53:04.293 DEBUG AUTOMATION - Borrando la evidencia anterior
-17:53:04.538 INFO  AUTOMATION - before: Buscar y validar detalles de una consola playstation
-17:53:04.539 INFO  AUTOMATION - Asignando default driver a CHROME
-17:53:04.541 INFO  AUTOMATION - Inicializando driver: CHROME
-17:53:08.839 DEBUG AUTOMATION - Maximizando la pantalla
-17:53:08.913 DEBUG AUTOMATION - Borrrando las cookies
-17:53:08.947 INFO  AUTOMATION - Navegando a la pagina
-17:53:19.450 INFO  AUTOMATION - Esperando que la pagina LPHomePage cargue
-17:53:19.531 INFO  AUTOMATION - LPHomePage ha cargado satisfactoriamente
-17:53:19.534 INFO  AUTOMATION - Escribiendo item a buscar
-17:53:20.351 INFO  AUTOMATION - Dando ENTER a la busqueda
-17:53:21.142 INFO  AUTOMATION - Verificando las opciones del sidebar
-17:53:21.480 INFO  AUTOMATION - after: Buscar y validar detalles de una consola playstation, status: FAILED
-17:53:21.481 DEBUG AUTOMATION - Tomando screenshot
-17:53:21.949 DEBUG AUTOMATION - Tomando el page source de la pagina
-17:53:21.949 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
-17:53:26.789 DEBUG AUTOMATION - Matando el padre
-17:53:27.465 INFO  AUTOMATION - afterAll
+18:25:51.786 INFO  AUTOMATION - beforeAll
+18:25:52.996 DEBUG AUTOMATION - Borrando la evidencia anterior
+18:25:53.133 INFO  AUTOMATION - before: Logout
+18:25:53.134 INFO  AUTOMATION - Inicializando driver: EDGE
+18:26:05.599 DEBUG AUTOMATION - Maximizando la pantalla
+18:26:06.559 DEBUG AUTOMATION - Borrrando las cookies
+18:26:11.044 DEBUG AUTOMATION - Asignando la cookie de login
+18:26:11.936 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+18:26:12.225 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+18:26:12.228 INFO  AUTOMATION - Abriendo el menu burger
+18:26:12.290 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+18:26:12.838 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+18:26:12.838 INFO  AUTOMATION - Esperando que sea clickeable por la animacion
+18:26:12.858 INFO  AUTOMATION - Haciendo click en logout
+18:26:12.919 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+18:26:12.943 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+18:26:12.943 INFO  AUTOMATION - Verificando la pagina de login
+18:26:13.015 INFO  AUTOMATION - after: Logout, status: PASSED
+18:26:13.015 DEBUG AUTOMATION - Matando el padre
+18:26:14.596 INFO  AUTOMATION - before: About
+18:26:14.596 INFO  AUTOMATION - Inicializando driver: EDGE
+18:26:16.038 DEBUG AUTOMATION - Maximizando la pantalla
+18:26:16.091 DEBUG AUTOMATION - Borrrando las cookies
+18:26:16.099 DEBUG AUTOMATION - Asignando la cookie de login
+18:26:18.697 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+18:26:18.919 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+18:26:18.919 INFO  AUTOMATION - Abriendo el menu burger
+18:26:18.969 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+18:26:19.511 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+18:26:19.511 INFO  AUTOMATION - Esperando que sea clickeable por la animacion
+18:26:19.536 INFO  AUTOMATION - Verificando la opcion de about
+18:26:19.552 INFO  AUTOMATION - after: About, status: PASSED
+18:26:19.552 DEBUG AUTOMATION - Matando el padre
+18:26:20.944 INFO  AUTOMATION - before: Verificar las redes sociales del footer
+18:26:20.945 INFO  AUTOMATION - Inicializando driver: EDGE
+18:26:22.108 DEBUG AUTOMATION - Maximizando la pantalla
+18:26:22.153 DEBUG AUTOMATION - Borrrando las cookies
+18:26:22.162 DEBUG AUTOMATION - Asignando la cookie de login
+18:26:22.886 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+18:26:23.119 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+18:26:23.179 INFO  AUTOMATION - Verificando los links de las redes sociales
+18:26:23.255 INFO  AUTOMATION - after: Verificar las redes sociales del footer, status: PASSED
+18:26:23.255 DEBUG AUTOMATION - Matando el padre
+18:26:24.629 INFO  AUTOMATION - before: Verificar la UI del detalle
+18:26:24.629 INFO  AUTOMATION - Inicializando driver: EDGE
+18:26:25.745 DEBUG AUTOMATION - Maximizando la pantalla
+18:26:25.796 DEBUG AUTOMATION - Borrrando las cookies
+18:26:25.808 DEBUG AUTOMATION - Asignando la cookie de login
+18:26:26.557 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+18:26:26.818 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+18:26:26.818 INFO  AUTOMATION - Navegando al detalle del item: Sauce Labs Fleece Jacket
+18:26:26.884 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+18:26:26.905 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+18:26:26.906 INFO  AUTOMATION - Verificando el detalle del item
+18:26:27.012 INFO  AUTOMATION - after: Verificar la UI del detalle, status: PASSED
+18:26:27.012 DEBUG AUTOMATION - Matando el padre
+18:26:28.425 INFO  AUTOMATION - before: Regresar pagina shopping
+18:26:28.425 INFO  AUTOMATION - Inicializando driver: EDGE
+18:26:29.632 DEBUG AUTOMATION - Maximizando la pantalla
+18:26:29.672 DEBUG AUTOMATION - Borrrando las cookies
+18:26:29.680 DEBUG AUTOMATION - Asignando la cookie de login
+18:26:30.543 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+18:26:30.795 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+18:26:30.796 INFO  AUTOMATION - Navegando al detalle del item: Sauce Labs Fleece Jacket
+18:26:30.862 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+18:26:30.884 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+18:26:30.884 INFO  AUTOMATION - Haciendo click en back to products
+18:26:30.956 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+18:26:30.972 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+18:26:30.972 INFO  AUTOMATION - Verificando la pagina de shopping
+18:26:31.029 INFO  AUTOMATION - after: Regresar pagina shopping, status: PASSED
+18:26:31.029 DEBUG AUTOMATION - Matando el padre
+18:26:32.416 INFO  AUTOMATION - before: Credenciales erroneas
+18:26:32.416 INFO  AUTOMATION - Inicializando driver: EDGE
+18:26:33.559 DEBUG AUTOMATION - Maximizando la pantalla
+18:26:33.610 DEBUG AUTOMATION - Borrrando las cookies
+18:26:33.618 INFO  AUTOMATION - Navegando a la pagina
+18:26:34.350 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+18:26:34.372 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+18:26:34.374 INFO  AUTOMATION - Escribiendo el username
+18:26:34.463 INFO  AUTOMATION - Escribiendo el password
+18:26:34.538 INFO  AUTOMATION - Haciendo click en el boton de login
+18:26:34.650 INFO  AUTOMATION - Verificando el mensaje de error y su texto
+18:26:34.696 INFO  AUTOMATION - after: Credenciales erroneas, status: PASSED
+18:26:34.696 DEBUG AUTOMATION - Matando el padre
+18:26:36.088 INFO  AUTOMATION - before: Credenciales erroneas
+18:26:36.088 INFO  AUTOMATION - Inicializando driver: EDGE
+18:26:37.552 DEBUG AUTOMATION - Maximizando la pantalla
+18:26:37.596 DEBUG AUTOMATION - Borrrando las cookies
+18:26:37.607 INFO  AUTOMATION - Navegando a la pagina
+18:26:38.350 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+18:26:38.402 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+18:26:38.403 INFO  AUTOMATION - Escribiendo el username
+18:26:38.534 INFO  AUTOMATION - Escribiendo el password
+18:26:38.617 INFO  AUTOMATION - Haciendo click en el boton de login
+18:26:38.707 INFO  AUTOMATION - Verificando el mensaje de error y su texto
+18:26:38.729 INFO  AUTOMATION - after: Credenciales erroneas, status: PASSED
+18:26:38.731 DEBUG AUTOMATION - Matando el padre
+18:26:40.105 INFO  AUTOMATION - before: Verificar la UI de la pagina
+18:26:40.105 INFO  AUTOMATION - Inicializando driver: EDGE
+18:26:41.333 DEBUG AUTOMATION - Maximizando la pantalla
+18:26:41.370 DEBUG AUTOMATION - Borrrando las cookies
+18:26:41.385 INFO  AUTOMATION - Navegando a la pagina
+18:26:42.127 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+18:26:42.152 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+18:26:42.152 INFO  AUTOMATION - Verificando la pagina de login
+18:26:42.251 INFO  AUTOMATION - after: Verificar la UI de la pagina, status: PASSED
+18:26:42.251 DEBUG AUTOMATION - Matando el padre
+18:26:43.662 INFO  AUTOMATION - before: Verificar que la pagina de Liverpool carga
+18:26:43.662 INFO  AUTOMATION - Inicializando driver: EDGE
+18:26:44.829 DEBUG AUTOMATION - Maximizando la pantalla
+18:26:44.864 DEBUG AUTOMATION - Borrrando las cookies
+18:26:44.877 INFO  AUTOMATION - Navegando a la pagina
+18:26:50.436 INFO  AUTOMATION - Esperando que la pagina LPHomePage cargue
+18:26:50.455 INFO  AUTOMATION - LPHomePage ha cargado satisfactoriamente
+18:26:50.456 INFO  AUTOMATION - Verificando la pagina de login
+18:26:50.495 INFO  AUTOMATION - after: Verificar que la pagina de Liverpool carga, status: PASSED
+18:26:50.495 DEBUG AUTOMATION - Matando el padre
+18:26:51.951 INFO  AUTOMATION - before: Buscar y validar detalles de una consola playstation
+18:26:51.951 INFO  AUTOMATION - Inicializando driver: EDGE
+18:26:53.253 DEBUG AUTOMATION - Maximizando la pantalla
+18:26:53.305 DEBUG AUTOMATION - Borrrando las cookies
+18:26:53.313 INFO  AUTOMATION - Navegando a la pagina
+18:26:57.807 INFO  AUTOMATION - Esperando que la pagina LPHomePage cargue
+18:26:57.839 INFO  AUTOMATION - LPHomePage ha cargado satisfactoriamente
+18:26:57.841 INFO  AUTOMATION - Escribiendo item a buscar
+18:26:58.281 INFO  AUTOMATION - Dando ENTER a la busqueda
+18:26:58.382 INFO  AUTOMATION - Esperando que la pagina LPPlaystationPage cargue
+18:27:00.969 INFO  AUTOMATION - LPPlaystationPage ha cargado satisfactoriamente
+18:27:00.969 INFO  AUTOMATION - Verificando las opciones del sidebar
+18:27:01.090 INFO  AUTOMATION - Haciendo click en la opcion de consolas
+18:27:01.393 INFO  AUTOMATION - Esperando que la pagina LPConsolasPage cargue
+18:27:02.704 INFO  AUTOMATION - LPConsolasPage ha cargado satisfactoriamente
+18:27:02.704 INFO  AUTOMATION - Verificando el titulo de la pagina
+18:27:02.739 INFO  AUTOMATION - Haciendo click en el primer resultado
+18:27:02.907 INFO  AUTOMATION - Esperando que la pagina LPPlaystationDetailPage cargue
+18:27:04.571 INFO  AUTOMATION - LPPlaystationDetailPage ha cargado satisfactoriamente
+18:27:04.571 INFO  AUTOMATION - Verificando el titulo de la pagina
+18:27:04.634 INFO  AUTOMATION - Verificando el precio del producto
+18:27:04.713 INFO  AUTOMATION - after: Buscar y validar detalles de una consola playstation, status: FAILED
+18:27:04.713 DEBUG AUTOMATION - Tomando screenshot
+18:27:04.886 DEBUG AUTOMATION - Tomando el page source de la pagina
+18:27:04.887 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+18:27:05.682 DEBUG AUTOMATION - Matando el padre
+18:27:07.191 INFO  AUTOMATION - before: Verificar la UI
+18:27:07.191 INFO  AUTOMATION - Inicializando driver: EDGE
+18:27:08.644 DEBUG AUTOMATION - Maximizando la pantalla
+18:27:08.679 DEBUG AUTOMATION - Borrrando las cookies
+18:27:08.685 DEBUG AUTOMATION - Asignando la cookie de login
+18:27:09.492 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+18:27:09.780 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+18:27:09.780 INFO  AUTOMATION - Verificando la pagina de shopping
+18:27:09.872 INFO  AUTOMATION - after: Verificar la UI, status: PASSED
+18:27:09.873 DEBUG AUTOMATION - Matando el padre
+18:27:11.273 INFO  AUTOMATION - before: Verificar Precios
+18:27:11.273 INFO  AUTOMATION - Inicializando driver: EDGE
+18:27:12.426 DEBUG AUTOMATION - Maximizando la pantalla
+18:27:12.472 DEBUG AUTOMATION - Borrrando las cookies
+18:27:12.486 DEBUG AUTOMATION - Asignando la cookie de login
+18:27:13.213 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+18:27:13.448 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+18:27:13.571 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:27:13.573 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:27:13.635 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:27:13.686 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+18:27:13.688 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+18:27:13.689 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+18:27:13.689 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+18:27:13.689 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+18:27:13.690 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+18:27:13.701 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+18:27:13.702 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+18:27:13.705 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+18:27:13.706 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+18:27:13.707 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+18:27:13.708 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+18:27:13.708 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+18:27:13.709 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+18:27:13.762 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+18:27:13.769 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+18:27:13.816 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+18:27:13.820 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+18:27:13.822 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+18:27:13.828 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+18:27:13.830 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+18:27:13.831 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+18:27:13.834 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+18:27:13.836 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+18:27:13.839 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+18:27:13.841 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+18:27:13.843 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+18:27:13.845 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+18:27:13.847 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+18:27:13.872 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+18:27:13.874 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+18:27:13.883 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+18:27:13.887 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+18:27:13.902 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+18:27:13.902 INFO  AUTOMATION - Verificando el precio de los productos
+18:27:14.060 INFO  AUTOMATION - after: Verificar Precios, status: PASSED
+18:27:14.060 DEBUG AUTOMATION - Matando el padre
+18:27:15.418 INFO  AUTOMATION - before: Verificar que la pagina de Liverpool carga
+18:27:15.418 INFO  AUTOMATION - Inicializando driver: EDGE
+18:27:16.539 DEBUG AUTOMATION - Maximizando la pantalla
+18:27:16.581 DEBUG AUTOMATION - Borrrando las cookies
+18:27:16.589 INFO  AUTOMATION - Navegando a la pagina
+18:27:20.985 INFO  AUTOMATION - Esperando que la pagina LPHomePage cargue
+18:27:21.018 INFO  AUTOMATION - LPHomePage ha cargado satisfactoriamente
+18:27:21.018 INFO  AUTOMATION - Verificando la pagina de login
+18:27:21.136 INFO  AUTOMATION - after: Verificar que la pagina de Liverpool carga, status: PASSED
+18:27:21.136 DEBUG AUTOMATION - Matando el padre
+18:27:22.636 INFO  AUTOMATION - before: Buscar y filtrar smart tv en Liverpool
+18:27:22.636 INFO  AUTOMATION - Inicializando driver: EDGE
+18:27:24.102 DEBUG AUTOMATION - Maximizando la pantalla
+18:27:24.141 DEBUG AUTOMATION - Borrrando las cookies
+18:27:24.154 INFO  AUTOMATION - Navegando a la pagina
+18:27:29.579 INFO  AUTOMATION - Esperando que la pagina LPHomePage cargue
+18:27:29.598 INFO  AUTOMATION - LPHomePage ha cargado satisfactoriamente
+18:27:29.599 INFO  AUTOMATION - Escribiendo item a buscar
+18:27:29.882 INFO  AUTOMATION - Dando ENTER a la busqueda
+18:27:30.120 INFO  AUTOMATION - after: Buscar y filtrar smart tv en Liverpool, status: PASSED
+18:27:30.120 DEBUG AUTOMATION - Matando el padre
+18:27:31.545 INFO  AUTOMATION - before: Mensaje de errores
+18:27:31.545 INFO  AUTOMATION - Inicializando driver: EDGE
+18:27:32.744 DEBUG AUTOMATION - Maximizando la pantalla
+18:27:32.791 DEBUG AUTOMATION - Borrrando las cookies
+18:27:32.802 DEBUG AUTOMATION - Asignando la cookie de login
+18:27:33.986 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+18:27:34.003 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+18:27:34.003 INFO  AUTOMATION - Haciendo click en el boton de shopping cart
+18:27:34.059 INFO  AUTOMATION - Esperando que la pagina YourCartPage cargue
+18:27:34.076 INFO  AUTOMATION - YourCartPage ha cargado satisfactoriamente
+18:27:34.076 INFO  AUTOMATION - Haciendo click en checkout
+18:27:34.125 INFO  AUTOMATION - Esperando que la pagina YourInformationPage cargue
+18:27:34.140 INFO  AUTOMATION - YourInformationPage ha cargado satisfactoriamente
+18:27:34.141 INFO  AUTOMATION - Escribiendo el firstname
+18:27:34.201 INFO  AUTOMATION - Escribiendo el firstname
+18:27:34.249 INFO  AUTOMATION - Haciendo click en continue
+18:27:34.305 INFO  AUTOMATION - Verificando el mensaje de error
+18:27:34.331 INFO  AUTOMATION - after: Mensaje de errores, status: PASSED
+18:27:34.331 DEBUG AUTOMATION - Matando el padre
+18:27:34.885 INFO  AUTOMATION - before: Mensaje de errores
+18:27:34.885 INFO  AUTOMATION - Inicializando driver: EDGE
+18:27:36.131 DEBUG AUTOMATION - Maximizando la pantalla
+18:27:36.219 DEBUG AUTOMATION - Borrrando las cookies
+18:27:36.948 DEBUG AUTOMATION - Asignando la cookie de login
+18:27:37.648 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+18:27:37.958 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+18:27:37.958 INFO  AUTOMATION - Haciendo click en el boton de shopping cart
+18:27:38.048 INFO  AUTOMATION - Esperando que la pagina YourCartPage cargue
+18:27:38.089 INFO  AUTOMATION - YourCartPage ha cargado satisfactoriamente
+18:27:38.089 INFO  AUTOMATION - Haciendo click en checkout
+18:27:38.156 INFO  AUTOMATION - Esperando que la pagina YourInformationPage cargue
+18:27:38.173 INFO  AUTOMATION - YourInformationPage ha cargado satisfactoriamente
+18:27:38.173 INFO  AUTOMATION - Escribiendo el firstname
+18:27:38.230 INFO  AUTOMATION - Escribiendo el firstname
+18:27:38.281 INFO  AUTOMATION - Haciendo click en continue
+18:27:38.337 INFO  AUTOMATION - Verificando el mensaje de error
+18:27:38.367 INFO  AUTOMATION - after: Mensaje de errores, status: PASSED
+18:27:38.368 DEBUG AUTOMATION - Matando el padre
+18:27:39.732 INFO  AUTOMATION - before: Mensaje de errores
+18:27:39.732 INFO  AUTOMATION - Inicializando driver: EDGE
+18:27:40.778 DEBUG AUTOMATION - Maximizando la pantalla
+18:27:40.824 DEBUG AUTOMATION - Borrrando las cookies
+18:27:42.751 DEBUG AUTOMATION - Asignando la cookie de login
+18:27:43.716 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+18:27:43.741 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+18:27:43.741 INFO  AUTOMATION - Haciendo click en el boton de shopping cart
+18:27:43.853 INFO  AUTOMATION - Esperando que la pagina YourCartPage cargue
+18:27:43.876 INFO  AUTOMATION - YourCartPage ha cargado satisfactoriamente
+18:27:43.876 INFO  AUTOMATION - Haciendo click en checkout
+18:27:43.976 INFO  AUTOMATION - Esperando que la pagina YourInformationPage cargue
+18:27:44.006 INFO  AUTOMATION - YourInformationPage ha cargado satisfactoriamente
+18:27:44.007 INFO  AUTOMATION - Escribiendo el firstname
+18:27:44.094 INFO  AUTOMATION - Escribiendo el firstname
+18:27:44.139 INFO  AUTOMATION - Haciendo click en continue
+18:27:44.193 INFO  AUTOMATION - Verificando el mensaje de error
+18:27:44.219 INFO  AUTOMATION - after: Mensaje de errores, status: PASSED
+18:27:44.219 DEBUG AUTOMATION - Matando el padre
+18:27:46.656 INFO  AUTOMATION - afterAll
